@@ -1,0 +1,25 @@
+.downBtn{
+    color: white !important;
+    font-size: 10px !important;
+    width: 140px !important;
+    text-align: center;
+    text-align: center;
+    padding: 12px 8px !important;
+    border-radius: 25px !important;
+    /* margin-left:40px ; */
+}
+.downBtn{
+ background-color: #242056 !important;
+}
+.selectStyle{
+    width: 350px !important;
+    
+}
+.selectStyle:hover{
+    border-color:#242056 !important;
+
+}
+.selectStyle:active{
+    border-color:#242056 !important;
+
+}

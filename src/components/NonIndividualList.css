@@ -1,0 +1,11 @@
+@media screen and (max-width: 500px) {
+    .columnTitle{
+        width: 60px !important;
+    }
+.fileChip{
+    width: 60px !important;
+}
+}
+.columnTitle{
+    width: 100px !important;
+}

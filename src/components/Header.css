@@ -1,0 +1,66 @@
+.header-logo {
+    /* width: 50% */
+    height: 50px;
+    width: 43px;
+}
+
+
+.main-title {
+    font-size: 13px !important;
+    color: #242056;
+    padding: 0;
+    text-align: center;
+    font-weight: 900 !important;
+}
+
+.logoutBtn {
+    background: #F26F21 !important;
+    color: white !important;
+    font-size: 10px !important;
+    width: 85px;
+    text-align: center;
+    padding: 7px 5px 5px 5px !important;
+}
+
+@media (max-width: 825px) {
+    .main-title {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-title {
+        font-size: 10px !important;
+        padding: 0 !important;
+    }
+
+    .header-logo {
+        height: 40px !important;
+        width: 40px !important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .settingsIcon {
+        font-size: 8px;
+    }
+
+    .menuIcon {
+        font-size: 8px;
+    }
+
+    .logoutBtn {
+        background: #F26F21 !important;
+        color: white !important;
+        font-size: 8px !important;
+        width: 55px;
+        text-align: center;
+        padding: 4px 8px !important;
+        min-width: 38px !important;
+    }
+}
+
+/* menu css */
+.menu-button {
+    color: black;
+}

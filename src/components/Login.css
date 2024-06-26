@@ -1,0 +1,49 @@
+.loginBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 49px 35px;
+    margin: auto;
+    margin-top: 80px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginBtn {
+    background: #F26F21 !important;
+    color: white !important;
+    font-size: 15px !important;
+    width: 100%;
+    padding: 20px;
+}
+
+.successAlert {
+    color: #fff !important;
+    background: #2e7d32 !important;
+}
+
+.failureAlert {
+    color: #fff !important;
+    background: #d32f2f !important;
+}
+
+@media screen and (max-width: 500px) {
+    .loginBox {
+        padding: 25px 0px;
+        margin-top: 120px;
+    }
+
+    .textBox {
+        width: 25ch !important;
+    }
+
+}

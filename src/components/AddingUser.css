@@ -1,0 +1,25 @@
+.submitBtn {
+        margin: 4px !important;
+        min-width: 100px !important;
+        background-color: #3f51b5 !important;
+        padding: 6px;
+        color: white !important;
+        font-size: 12px !important;
+}
+.submitBtn:hover{
+    
+        background-color: #3f51b5;
+      
+}
+.resetBtn{
+    margin: 4px !important;
+    width: 100px !important;
+    /* background-color: #3f51b5 !important; */
+    padding: 6px;
+    color: black !important;
+    font-size: 12px !important;
+}
+Typography
+{
+font-size: 14px !important;
+}

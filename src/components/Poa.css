@@ -1,0 +1,123 @@
+.poaBtn Button {
+  font-size: 10px !important;
+  width: 80px;
+  text-align: center;
+  padding: 5px 8px !important;
+  background-color: #2d545e;
+}
+
+.poaBtn Button:hover {
+  background-color: #2d545e;
+}
+
+@media screen and (max-width: 500px) {
+  .dataGridStyling {
+    width: 70%;
+  }
+
+  /* .modalStyling{
+      width: 200px !important;
+      height: 100px;
+      border: 2px solid black;
+    } */
+  .modalStyling .textFieldStyling {
+    width: 300px;
+
+
+  }
+
+  /*
+    .outerDiv{
+   
+      padding: 15px 25px;
+      border: 2px solid grey;
+      border-radius: 10px;
+    }
+    .innerDiv{
+      padding: 15px 2px;
+    }
+    .innerDiv > :nth-child(2) {
+      font-size: 8px !important;
+    } */
+  /* .closeIcon{
+      right: 15%;
+      top: 2% ;
+    } */
+
+}
+
+@media screen and (max-width: 1110px) {
+  .dataGridStyling {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .dataGridStyling {
+    width: 90%;
+  }
+}
+
+.headerName {
+
+  font-weight: bolder !important;
+}
+
+
+/* pagination css */
+.pageNumberContainer {
+  margin-top: 20px;
+  margin-right: 50px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  cursor: pointer;
+  color: black;
+  font-size: 15px;
+}
+
+.pageNumberClass {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  margin: 1px;
+}
+
+.pageNumberClassActive {
+  background-color: #0e85d46e;
+  color: black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  transition: 0.3s ease;
+
+}
+
+.pageLinkClass {
+  text-decoration: none;
+  color: black;
+  width: 37px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 37px;
+  /* color: black; */
+}
+
+.disabled {
+  display: none;
+}
+
+.pageNumberClass:hover {
+  background-color: #0e85d43a;
+}

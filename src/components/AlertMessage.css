@@ -1,0 +1,17 @@
+.css-1vooibu-MuiSvgIcon-root {
+    color: #fff !important;
+}
+
+.successAlert {
+    color: #fff !important;
+    background: #2e7d32 !important;
+}
+
+.failureAlert {
+    color: #fff !important;
+    background: #d32f2f !important;
+}
+
+.css-1t20nyk-MuiSnackbar-root {
+    bottom: 50px !important;
+}

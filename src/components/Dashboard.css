@@ -1,0 +1,86 @@
+.table {
+    width: 40%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 7px auto 50px auto;
+}
+
+.title {
+    color: #242056 !important;
+}
+
+.btn {
+    background: #F26F21 !important;
+    color: white !important;
+    font-size: 10px !important;
+    width: 80px;
+    text-align: center;
+    padding: 5px 8px !important;
+}
+
+.custom-class>* {
+    background-color: #F26F21 !important;
+}
+
+.custom-class {
+    background-color: #242056 !important;
+}
+
+.successAlert {
+    color: #fff !important;
+    background: #2e7d32 !important;
+}
+
+.failureAlert {
+    color: #fff !important;
+    background: #d32f2f !important;
+}
+
+.css-1t20nyk-MuiSnackbar-root {
+    bottom: 50px !important;
+}
+
+@media (max-width: 1150px) {
+    .table {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .table {
+        width: 90%;
+    }
+
+    .datePicker {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+
+    .css-1iezzy6-MuiFormControl-root-MuiTextField-root {
+        width: 150px !important;
+    }
+
+    .datePicer {
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .table {
+        width: 95%;
+    }
+
+    .title {
+        padding: 10px !important;
+    }
+
+    .btn {
+        font-size: 7px !important;
+        width: 50px;
+    }
+
+    .css-1iezzy6-MuiFormControl-root-MuiTextField-root {
+        width: 100px !important;
+    }
+}

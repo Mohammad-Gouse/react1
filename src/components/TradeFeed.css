@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+  .dataGridStyling {
+    width: 100%;
+  }
+
+  .modalStyling {
+    max-width: 212px !important;
+    max-height: 304px !important;
+    border: 2px solid black;
+  }
+
+  .modalStyling .textFieldStyling {
+    width: 300px;
+
+
+  }
+
+  .fileNameGrid {
+    overflow-y: auto;
+    max-height: 70px !important;
+
+  }
+
+
+
+  .outerDiv {
+
+    padding: 8px 8px !important;
+  }
+
+  .innerDiv {
+    padding: 6px 2px !important
+  }
+
+  .innerDiv> :nth-child(2) {
+    font-size: 8px !important;
+  }
+
+  .modalStylingForAof {
+    width: 250px !important;
+  }
+
+}
+
+@media screen and (max-width: 1110px) {
+  .dataGridStyling {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .dataGridStyling {
+    width: 100%;
+  }
+}
+
+.headerName {
+
+  font-weight: bolder !important;
+}
+
+.dataGridStyling {
+  margin-top: 7px
+}
+
+.fileNameGrid {
+  overflow-y: auto;
+  max-height: 150px;
+  /* box-shadow: 1px 1px 1px 1px lightgray; */
+  margin-bottom: 4px;
+
+}
+
+/* .fileNameChip:hover{
+max-width: 200px !important;
+} */
+.modalStyling {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  border-radius: 10px;
+  /* overflow: auto; */
+  max-height: 100%;
+}
+
+.modalStylingForAof {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 6px 16px;
+  border-radius: 10px;
+  /* overflow: auto; */
+  max-height: 100%;
+  margin-top: -21px;
+}
+
+.uploadBtn Button {
+  position: sticky;
+  font-size: 10px !important;
+  width: 80px;
+  text-align: center;
+  padding: 5px 8px !important;
+}
+
+/* Add styles for the Generate Button */
+.generateBtn {
+  position: sticky;
+  bottom: 20px;
+  margin: 10px auto;
+  z-index: 1;
+  background-color: #242056 !important;
+  color: white !important;
+  padding: 5px 8px !important;
+  font-size: 10px !important;
+  width: 80px;
+}
+
+.outerDiv {
+
+  padding: 20px 20px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin-bottom: 4px;
+}
+
+.innerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 2px;
+  border: 1px solid grey;
+  border-radius: 10px;
+
+}
+
+.topBtn {
+  background-color: #242056 !important;
+  color: white !important;
+  width: 244px;
+  font-size: 12px !important;
+
+}
+
+.uploadBtn Button:hover {
+  background-color: #242056 !important;
+}
+
+.postBtn {
+  background-color: #242056 !important;
+  color: white !important;
+  margin-top: 6px !important;
+  padding: 8px 8px !important;
+  font-size: 10px !important;
+  min-width: 140px !important;
+  border-radius: 8px !important;
+}
+
+/* .postBtn:hover,
+.postBtn:focus{
+background-color: #eca276  !important;;
+
+} */
+.fileName Typography {
+  font-size: 8px;
+}
+
+/* .fileInputClick{
+  border: 2px solid red;
+  width: 00px;
+  
+} */
+
+/* pagination css */
+.pageNumberContainer {
+  margin-top: 20px;
+  margin-right: 50px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  cursor: pointer;
+  color: black;
+  font-size: 15px;
+}
+
+.pageNumberClass {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  margin: 1px;
+}
+
+.pageNumberClassActive {
+  background-color: #0e85d46e;
+  color: black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  transition: 0.3s ease;
+
+}
+
+.pageLinkClass {
+  text-decoration: none;
+  color: black;
+  width: 37px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 37px;
+  /* color: black; */
+}
+
+.disabled {
+  display: none;
+}
+
+.pageNumberClass:hover {
+  background-color: #0e85d43a;
+}

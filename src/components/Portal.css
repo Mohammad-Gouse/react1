@@ -1,0 +1,30 @@
+.mainGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.MyCustomButton:hover {
+    background-color: inherit !important;
+  }
+  .optionDiv:hover{
+    /* border: red; */
+    box-shadow: 0 0 1px 1px rgb(96, 94, 94);
+    transition: 0.5s;
+  }
+  @media screen and (max-width: 830px) {
+    .mainGrid{
+      margin-top: 0 !important;
+      margin-bottom: 70px !important;
+    }
+  }
+  @media screen and (max-width: 430px) {
+    .optionDiv{
+      width: 300px !important;
+      height: 80px !important;
+    }
+  .textDiv{
+      font-size: 12px !important;
+    }
+  }
+  

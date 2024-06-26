@@ -1,0 +1,23 @@
+/* Button:hover {
+    background-color: #242056;
+} */
+
+.configBtn {
+
+    background: #242056 !important;
+    color: white !important;
+    font-size: 10px !important;
+    width: 80px;
+    text-align: center;
+    padding: 5px 8px !important;
+}
+
+.configBtnPoa {
+
+    background: #2d545e !important;
+    color: white !important;
+    font-size: 10px !important;
+    width: 80px;
+    text-align: center;
+    padding: 5px 8px !important;
+}

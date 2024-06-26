@@ -1,0 +1,80 @@
+.addBtn {
+
+  background-color: #3f51b5 !important;
+  color: white !important;
+  width: 170px;
+  font-size: 12px !important;
+}
+
+.addBtn:hover {
+  box-shadow: rgba(76, 78, 100, 0.70) 0px 4px 8px -4px;
+}
+
+@media screen and (max-width: 500px) {
+  .addBtn {
+    position: absolute !important;
+    top: 70px !important;
+    right: 19px !important;
+    width: 100px !important;
+
+  }
+}
+
+
+/* pagination css */
+.pageNumberContainer {
+  margin-top: 20px;
+  margin-right: 50px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  cursor: pointer;
+  color: black;
+  font-size: 15px;
+}
+
+.pageNumberClass {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  margin: 1px;
+}
+
+.pageNumberClassActive {
+  background-color: #0e85d46e;
+  color: black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  transition: 0.3s ease;
+
+}
+
+.pageLinkClass {
+  text-decoration: none;
+  color: black;
+  width: 37px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 37px;
+  /* color: black; */
+}
+
+.disabled {
+  display: none;
+}
+
+.pageNumberClass:hover {
+  background-color: #0e85d43a;
+}

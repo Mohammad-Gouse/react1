@@ -1,0 +1,36 @@
+.MuiFormLabel-root.Mui-focused {
+    /* color: #242056 !important; */
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    /* border-color: #242056 !important; */
+}
+
+.admin, .nsescript {
+    width: 35%;
+    /* height: 80vh; */
+    margin: 7px auto 7px auto !important;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.saveBtn {
+    color: #fff !important;
+    background: #F26F21 !important;
+    width: 80px !important;
+    margin-bottom: 20px !important;
+    padding: 4px 8px !important;
+    font-size: 12px !important;
+}
+
+@media (max-width: 900px) {
+    .admin, .nsescript {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .admin, .nsescript {
+        width: 90%;
+    }
+}
